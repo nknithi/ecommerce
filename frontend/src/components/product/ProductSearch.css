@@ -1,0 +1,20 @@
+/* Styles for category items */
+.category-item {
+    cursor: pointer;  /* Pointer cursor for interactive items */
+    list-style-type: none;   /* Removes default list styling */
+    padding: 0.5rem 1rem; /* Padding around each category item */
+    margin-bottom: 0.15rem;  /* Margin between category items */
+    border-radius: 4px;   /* Rounded corners for a softer look */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect for category items */
+.category-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Selected category item styling */
+.category-item.selected {
+    background-color: #f0f0f0;  /* Light grey background */
+    color: black /* Black text color */
+}
